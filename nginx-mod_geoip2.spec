@@ -8,7 +8,7 @@ Summary:	Nginx GeoIP2 modules - IP geolocation from MaxMind DB (mmdb) files
 Summary(pl.UTF-8):	Moduły GeoIP2 dla nginksa - geolokalizacja IP z plików MaxMind DB (mmdb)
 Name:		nginx-mod_geoip2
 Version:	3.4
-Release:	3
+Release:	4
 License:	BSD
 Group:		Daemons
 #Source0Download: https://github.com/leev/ngx_http_geoip2_module/releases
@@ -70,8 +70,6 @@ Moduł stream geoip2 dla nginksa. Czyta pliki MaxMind DB (.mmdb) i
 udostępnia odczytane pola jako zmienne nginksa w kontekście stream.
 %endif
 
-Moduł stream geoip2 dla nginksa. Czyta pliki MaxMind DB (.mmdb) i
-udostępnia odczytane pola jako zmienne nginksa w kontekście stream.
 %prep
 %setup -q -n %{modname}-%{version}
 
